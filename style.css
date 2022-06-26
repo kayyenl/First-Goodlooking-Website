@@ -11,8 +11,24 @@ nav {
     height:70px;
     display: flex;
     justify-content: space-between;
+    padding: 0 16px;
 }
 
-nav ul {
-    
+a {
+    color: black;
+    font-size: 24px;
+}
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding-left: 24px;
 }
