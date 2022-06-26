@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 nav {
@@ -85,7 +86,7 @@ ABOUT SECTION
     background-color: #f8ffdc;
 }
 
-.aboutitems {
+.items {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,7 +99,7 @@ h2 {
     margin-bottom: 24px;
 }
 
-.aboutleft {
+.itemsleft {
     width: 60%;
     padding: 16px 24px 0 0;
 }
@@ -109,10 +110,62 @@ h2 {
     margin-bottom: 24px;
 }
 
-.aboutright {
+.itemsright {
     width: 40%;
 }
 
-.aboutimage {
+.itemsimage {
     width: 100%;
+}
+
+/*
+
+DISCORD SECTION
+
+*/
+
+#discord {
+    background-color: #cefeff;
+    padding: 24px 0;
+}
+
+.discordbottom {
+    display: flex;
+}
+
+.discbottomleft {
+    width: 50%;
+}
+
+.discbottomright {
+    width: 50%;
+}
+
+.discimage {
+    width: 80%;
+}
+
+.discleft {
+    padding: 40px 0 40px 50px;
+}
+
+/*
+
+CONTACT SECTION
+
+*/
+
+#contact {
+    padding: 24px 24px;
+    background-color: #dce9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
 }
