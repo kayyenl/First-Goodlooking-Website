@@ -202,3 +202,62 @@ footer {
 .copyright {
     padding: 24px;
 }
+
+/* Small phones, tablets, smartphones. */
+@media (max-width: 728px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+
+    .itemsleft, .itemsright{
+        text-align: center;
+        width: 100%;
+    }
+
+    h2 {
+        margin-bottom: 16px;
+    }
+
+    #discord .items {
+        flex-direction: column-reverse;
+    }
+
+    .discleft {
+        padding: 40px 0 40px 8px;
+    }
+
+    .itemsleft {
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .subheader {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .homebutton {
+        max-width: 240px;
+    }
+
+    ul {
+        display: none;
+    };
+
+
+}
+
+/* This activates the curly braces when the conditional is met. */
+/* So anything under 728px, the code below the conditional will fire. */
+/* Think of max width like a range of numbers form 0 to 728. */
