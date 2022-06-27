@@ -191,7 +191,7 @@ footer {
 }
 
 .footerlogo {
-    max-width: 500px;
+    width: 100%;
     padding: 36px;
 }
 
@@ -251,9 +251,17 @@ footer {
         max-width: 240px;
     }
 
-    ul {
+    .nav_ul {
         display: none;
-    };
+    }
+
+    .endlink {
+        font-size: 16px;
+    }
+
+    #footer li {
+        padding-left: 12px;
+    }
 
 
 }
